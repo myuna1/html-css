@@ -1,0 +1,13 @@
+body{
+    font: normal 11pt arial;
+}
+.princ {
+    background-color: rgb(204, 199, 199);
+}  
+.verd{
+    color: darkgreen;background-color: rgb(148, 207, 148);
+}
+.amar{
+    color: rgb(245, 105, 40);
+    background-color: rgb(211, 211, 151);
+}

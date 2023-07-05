@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(44, 44, 44);
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+iframe{
+    width: 900px;
+    margin: 0 auto;
+    display: block;
+}
+.more{
+    text-decoration: none;
+    color: white;
+    font: normal 14pt arial;
+    display: flex;
+    justify-content: center;
+}
+.volt{
+    display: flex;
+    justify-content: center;
+}
+div{
+    text-align: center;
+}
