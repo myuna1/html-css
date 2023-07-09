@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Brasileirão</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #3a3a3a;
+            color: white;
+        }
+        
+        table {
+            border-collapse: collapse;
+            background-color: #202124;
+            width: 800px;
+            margin: auto;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+
+        th {
+            text-align: ;
+            
+        }
+        
+        td {
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        div#container {
+            overflow-x: auto;
+        }
+        .g4 {
+            background-color: #4285F4;
+        }
+        .g6 {
+            background-color: #FA7B17;
+        }
+        .g12 {
+            background-color: #34A853;
+        }
+        .reb {
+            background-color: #EA4335;
+        }
+        img {
+            height: 24px;
+            width: 24px;
+            position: absolute;
+            left: 330px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table id="brasileirao">
+            <caption>Tabela Brasileirão Seria A 2023</caption>
+            <thead>
+                <tr>
+                    <th>Clube</th>
+                    <th>Pts</th>
+                    <th>PJ</th>
+                    <th>VIT</th>
+                    <th>EMP</th>
+                    <th>DER</th>
+                    <th>GM</th>
+                    <th>GC</th>
+                    <th>SG</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="g4"><img src="imagens/botafogo.png"> Botafogo</th>
+                    <td>33</td>
+                    <td>13</td>
+                    <td>11</td>
+                    <td>0</td>
+                    <td>2</td>
+                    <td>22</td>
+                    <td>7</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <th class="g4"><img src="imagens/flamengo.png"> Flamengo</th>
+                    <td>26</td>
+                    <td>14</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>27</td>
+                    <td>18</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <th class="g4"><img src="imagens/gremio.png"> Grêmio</th>
+                    <td>26</td>
+                    <td>13</td>
+                    <td>8</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>24</td>
+                    <td>18</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <th class="g4"><img src="imagens/palmeiras.png"> Palmeiras</th>
+                    <td>24</td>
+                    <td>14</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>25</td>
+                    <td>13</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <th class="g6"><img src="imagens/bragantino.png"> Bragantino</th>
+                    <td>23</td>
+                    <td>13</td>
+                    <td>6</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td>22</td>
+                    <td>14</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <th class="g6"><img src="imagens/fluminense.png"> Fluminense</th>
+                    <td>21</td>
+                    <td>13</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>19</td>
+                    <td>14</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th class="g12"><img src="imagens/saopaulo.png"> São Paulo</th>
+                    <td>21</td>
+                    <td>13</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>18</td>
+                    <td>13</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th class="g12"><img src="imagens/cruzeiro.png"> Cruzeiro</th>
+                    <td>21</td>
+                    <td>14</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>5</td>
+                    <td>16</td>
+                    <td>11</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <th class="g12"><img src="imagens/internacional.png"> Internacional</th>
+                    <td>21</td>
+                    <td>13</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <th class="g12"><img src="imagens/athletico.png"> Athletico-PR</th>
+                    <td>20</td>
+                    <td>13</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>18</td>
+                    <td>17</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <th class="g12"><img src="imagens/atletico.png"> Atlético-MG</th>
+                    <td>20</td>
+                    <td>14</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>4</td>
+                    <td>18</td>
+                    <td>14</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th class="g12"><img src="imagens/fortaleza.png"> Fortaleza</th>
+                    <td>20</td>
+                    <td>13</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>15</td>
+                    <td>11</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th><img src="imagens/cuiaba.png"> Cuiabá</th>
+                    <td>16</td>
+                    <td>14</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>13</td>
+                    <td>17</td>
+                    <td>-4</td>
+                </tr>
+                <tr>
+                    <th><img src="imagens/corinthians.png">Corinthians</th>
+                    <td>15</td>
+                    <td>14</td>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>17</td>
+                    <td>-5</td>
+                </tr>
+                <tr>
+                    <th><img src="imagens/santos.png">Santos</th>
+                    <td>13</td>
+                    <td>13</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>11</td>
+                    <td>16</td>
+                    <td>-5</td>
+                </tr>
+                <tr>
+                    <th><img src="imagens/bahia.png"> Bahia</th>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>15</td>
+                    <td>21</td>
+                    <td>-6</td>
+                </tr>
+                <tr>
+                    <th class="reb"><img src="imagens/goias.png"> Goiás</th>
+                    <td>11</td>
+                    <td>13</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>11</td>
+                    <td>22</td>
+                    <td>-11</td>
+                </tr>
+                <tr>
+                    <th class="reb"><img src="imagens/coritiba.png"> Coritiba</th>
+                    <td>10</td>
+                    <td>14</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>8</td>
+                    <td>14</td>
+                    <td>28</td>
+                    <td>-14</td>
+                </tr>
+                <tr>
+                    <th class="reb"><img src="imagens/vasco.png"> Vasco da Gama</th>
+                    <td>9</td>
+                    <td>14</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>9</td>
+                    <td>11</td>
+                    <td>23</td>
+                    <td>-12</td>
+                </tr>
+                <tr>
+                    <th class="reb"><img src="imagens/america.png"> América-MG</th>
+                    <td>9</td>
+                    <td>14</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>9</td>
+                    <td>16</td>
+                    <td>32</td>
+                    <td>-16</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
