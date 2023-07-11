@@ -47,6 +47,16 @@ Grandes telas: acima de 1200px
         background-image: url(imagens/back-tablet.jpg);
     }
 
+    h2::before {
+        content: "Versão Tablet";
+      }
+    
+    h2 {
+        color: rgb(175, 174, 172);
+        text-align: center;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.479);
+    }
+
     img#phone {display: none;}
     img#tablet {display: block;}
     img#print {display: none;}
@@ -57,6 +67,16 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 992px) and (max-width: 1200px) { /* DESKTOP */
     body {
         background-image: url(imagens/back-pc.jpg);
+    }
+
+    h2::before {
+        content: "Versão Desktop";
+      }
+    
+    h2 {
+        color: rgb(241, 96, 210);
+        text-align: center;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.479);
     }
 
     img#phone {display: none;}
@@ -73,6 +93,17 @@ Grandes telas: acima de 1200px
 
     main {
         width: 700px;
+    }
+
+    h2::before {
+        content: "Versão Grandes Telas";
+      }
+    
+    h2 {
+        color: black;
+        text-align: center;
+        font-size: 1.3em;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.479);
     }
     
     img#phone {display: none;}
